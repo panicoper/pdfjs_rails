@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'pdfjs_rails/version'
+#require 'pdfjs_rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "pdfjs_rails"
-  spec.version       = PdfjsRails::VERSION
+  spec.version       = "0.0.2"
   spec.authors       = ["shyam"]
   spec.email         = ["shyammohankanojia@gmail.com"]
   spec.description   = %q{PDFjs viewer for rails application.}
